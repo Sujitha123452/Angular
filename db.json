@@ -1,0 +1,154 @@
+{
+  "seller": [
+    {
+      "name": "sharmila",
+      "email": "sharmila14@gmail.com",
+      "password": "sharmila@123",
+      "id": 1
+    },
+    {
+      "name": "sujitha",
+      "email": "sujitha14@gmail.com",
+      "password": "suji@123",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "name": "Dell Inspiron",
+      "price": "48473",
+      "category": "Laptop",
+      "color": "Plantinum",
+      "description": "It is 1th Gen Core i5 16GB/512GB/Win 11 ",
+      "image": "https://cdn.moglix.com/p/gWZpJxCYCovZh-xxlarge.jpg",
+      "id": 1
+    },
+    {
+      "name": "Fire Bolt Watch ",
+      "price": "450",
+      "category": "Watches",
+      "color": "black",
+      "description": "It size is 1.33 inches.",
+      "image": "https://m.media-amazon.com/images/I/61icsCcbdKL._SY450_.jpg",
+      "id": 2
+    },
+    {
+      "name": "Boat Airopes 115",
+      "price": "999",
+      "category": "AirPodes",
+      "color": "Blue",
+      "description": "Earbuds with 13mm drivers, BEAST Mode for Gamers.",
+      "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/115-main2_600x.png?v=1655368638",
+      "id": 3
+    },
+    {
+      "name": "OnePlus Nord CE 5G",
+      "price": "16000",
+      "category": "Mobiles",
+      "color": "Light Blue",
+      "description": "It is 6Gb RAM,128 Gb storage",
+      "image": "https://m.media-amazon.com/images/I/71AvQd3VzqL._SX679_.jpg",
+      "id": 4
+    },
+    {
+      "name": "Galaxy Watch4 Classic LTE",
+      "price": "4000",
+      "category": "Watches",
+      "color": "grey",
+      "description": "This is samsung product.Classic and premium design provided.",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/2108/gallery/in-galaxy-watch4-classic-399241-sm-r895fzsainu-481181877?$650_519_PNG$",
+      "id": 5
+    },
+    {
+      "name": "Matlek Bluetooth Earphone",
+      "price": "400",
+      "category": "HeadSet",
+      "color": "Red",
+      "description": "It is wireless headphones",
+      "image": "https://rukminim1.flixcart.com/image/416/416/kr9jafk0/headphone/q/e/c/16-hours-music-neckband-earphone-bluetooth-wireless-headphones-original-imag53grwhpn57br.jpeg?q=70",
+      "id": 6
+    },
+    {
+      "name": "Hp Intel celeron Dualcore",
+      "price": "30000",
+      "color": "black",
+      "category": "Laptop",
+      "description": "8gb/256gb/this is windows 11",
+      "image": "https://rukminim1.flixcart.com/image/416/416/xif0q/computer/3/h/8/-original-imagp7pfhjzh6c8z.jpeg?q=70",
+      "id": 7
+    },
+    {
+      "name": "realme narzo N55",
+      "price": "9500",
+      "category": "Mobiles",
+      "color": "Blue",
+      "description": "It is Fastest Charging | Super High-res 64MP",
+      "image": "https://m.media-amazon.com/images/I/81ogvU1j6qL._SX679_.jpg",
+      "id": 8
+    },
+    {
+      "name": "OnePlus Nord Buds ",
+      "price": "2987",
+      "category": "AirPodes",
+      "color": "Grey",
+      "description": "Nice to use for 8hrs a day",
+      "image": "https://rukminim1.flixcart.com/image/416/416/l58iaa80/headphone/k/z/m/nord-buds-ce-oneplus-original-imagfyk4hyvgg6ze.jpeg?q=70",
+      "id": 9
+    },
+    {
+      "name": " I KALL N7 Wi-Fi Tablet",
+      "price": "36000",
+      "category": "Tab",
+      "color": "black",
+      "description": "It is 7inch,2gb RAM,16gb ROM",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS44Fbyoj1IaoeQbQFtRglg9SdCeXcPJT45p7aFoDNNL3Ji0p3nwChGw76FewPv9Cz0E_T-zAgL5Z2zsAW6fLJtltcOvwWWC911gkoWGprqWjHjHjQi9l5i-A&usqp=CAE",
+      "id": 10
+    }
+  ],
+  "users": [
+    {
+      "name": "monisha",
+      "email": "monisha@gmail.com",
+      "password": "monisha@123",
+      "id": 1
+    },
+    {
+      "name": "sujitha",
+      "email": "sujithaarul14@gmail.com",
+      "password": "suji@123",
+      "id": 2
+    }
+  ],
+  "cart": [
+    {
+      "name": "Boat Airopes 115",
+      "price": "999",
+      "category": "AirPodes",
+      "color": "Blue",
+      "description": "Earbuds with 13mm drivers, BEAST Mode for Gamers.",
+      "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/115-main2_600x.png?v=1655368638",
+      "quantity": 1,
+      "productId": 3,
+      "userId": 2,
+      "id": 1
+    }
+  ],
+  "orders": [
+    {
+      "email": "subha17@gmail.com",
+      "address": "gandhi street,vpm",
+      "contact": "9875461230",
+      "totalPrice": 17099,
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "email": "sujithaarul14@gmail.com",
+      "address": "11A Bhavani  Street, alamelupuram, villupuram.",
+      "contact": "09789473416",
+      "totalPrice": 1099,
+      "userId": 2,
+      "id": 4
+    }
+  ]
+}

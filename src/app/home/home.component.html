@@ -1,0 +1,43 @@
+<ngb-carousel *ngIf="images" [interval]="3000">
+	<ng-template ngbSlide>
+		<div class="picsum-img-wrapper">
+			<img [src]="images[0]" alt="Random first slide" />
+		</div>
+		<div class="carousel-caption">
+			<h4>Innovation at fingertips. Explore our range of gadgets</h4>
+		</div>
+	</ng-template>
+	<ng-template ngbSlide>
+		<div class="picsum-img-wrapper">
+			<img [src]="images[1]" alt="Random second slide" />
+		</div>
+		<div class="carousel-caption">
+			<h4>Discover the future today with our cutting-edge gadgets</h4>
+		</div>
+	</ng-template>
+</ngb-carousel>
+
+<div class="product-list-wrapper">
+<h1>Trendy Products</h1>
+<div class="row">
+  <div class="col-sm-3" *ngFor="let item of trendyProducts">
+    <div class="product-item">
+      <img src="{{item.image}}" alt="">
+    <div class="product-details">
+      <h6 class="name-head">{{item.name}}</h6>
+      <div class="product-price">
+        <h6>Price:{{item.price|currency: 'INR' }}</h6>
+      </div>
+      <div class="product-color">
+        <h6>Color:{{item.color}}</h6>
+      </div>
+    </div>
+    <div class="product-footer">
+      <a routerLink="/details/{{item.id}}">View Details</a>
+      <a href="">Add to Cart</a>
+    </div>
+    </div>
+  </div>
+</div>
+</div>
+

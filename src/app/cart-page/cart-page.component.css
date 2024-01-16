@@ -1,0 +1,37 @@
+.cart-page{
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.cart-page h1{
+  text-align: left;
+  color:slateblue;
+}
+.details{
+  border:1px solid #ddd;
+}
+.details img{
+  height: 100px;
+}
+.details ul{
+  margin: 10px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 15px;
+
+}
+.summary h3{
+  text-align: center;
+}
+
+.summary ul {
+  border: 1px solid #ddd;
+  list-style-type: none;
+  padding: 15px;
+}
+.summary ul li{
+  display: flex;
+  justify-content: space-between;
+}

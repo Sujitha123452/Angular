@@ -1,0 +1,59 @@
+body{
+  font-family: sans-serif;
+  background-image: url("https://st4.depositphotos.com/9563468/27534/i/450/depositphotos_275348098-stock-photo-light-gray-blue-color-background.jpg");
+}
+.container{
+  margin-top: 0;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.common-form{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+  background-image: url("https://img.freepik.com/free-vector/flat-abstract-background-holidays-pastel-colors-with-white-lines-flecks_1284-49802.jpg?size=626&ext=jpg&ga=GA1.1.1462052102.1688106390&semt=ais");
+}
+.form-input{
+  height: 35px;
+  margin-bottom: 20px;
+  border: 1px solid slateblue;
+  padding-left: 15px;
+  color: black;
+}
+.form-button{
+    height: 35px;
+    border: 1px solid slateblue;
+    color: slateblue;
+    cursor:pointer;
+}
+.message-p{
+  color: green;
+  text-align: center;
+}
+.error-p{
+  color: red;
+  text-align: center;
+}
+.carousel-caption {
+  background-color: lightgray;
+  color: black;
+  background-size: auto;
+  border-radius: 90px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  background-color: lightgray;
+  border-radius: 5px;
+}
+.invalid-input{
+  color: red;
+  font-size: 12px;
+  margin-top:-20px;
+  text-align: center;
+}
+button:disabled{
+  cursor: not-allowed;
+}
+.max-width{
+  width: 100%;
+}
